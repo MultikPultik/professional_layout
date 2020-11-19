@@ -85,6 +85,7 @@
     color: #a4a4a4;
     font-size: 14px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .myAccountBtn {
@@ -123,12 +124,273 @@
 .topNav a {
     text-decoration: none;
     color: #222222;
+    line-height: 51px;
+    border-bottom: 3px solid transparent;
 }
 
 .topNav a:not(:last-child) {
     margin-right: 45px;
 }
 
+.topNav a:hover {
+    border-bottom: 3px solid #ef5b70;
+}
+
+.newArrivals {
+    height: 148px;
+    background-color: #f8f3f4;
+}
+
+.newArrivals .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newArrivalsText {
+    color: #f16d7f;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.newArrivalsNav a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #636363;
+    text-decoration: none;
+}
+
+.newArrivalsNav a:last-child {
+    color: #f16d7f;
+}
+
+.tableHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.tableHeader div {
+    width: 80px;
+    text-align: center;
+}
+
+.tableHeader > div:first-child {
+    width: 450px;
+    text-align: left;
+}
+
+.shoppingCartUnit {
+    padding: 25px 0;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoppingCartUnit > div:first-child {
+    width: 450px;
+    text-align: left;
+}
+
+.productDesc {
+    display: flex;
+}
+
+.productSpecsWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 22px;
+    padding-left: 21px;
+}
+
+.productName {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.productSpecs {
+    color: #575757;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.productSpecs div {
+    text-align: left;
+}
+
+.productSpecs span {
+    color: #6f6e6e;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.productSize {
+    margin-top: 9px;
+}
+
+.productInf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    color: #656565;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.shoppingCartUnit input {
+    width: 54px;
+    height: 30px;
+    border: 1px solid #eaeaea;
+    text-align: center;
+    outline: none;
+    font-size: 13px;
+}
+
+.shoppingCartBtnWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.shoppingCartBtnWrap button {
+    width: 235px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    color: #4a4a4a;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0;
+}
+
+.shipping {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 63px;
+}
+
+.shippingColumn {
+    width: 355px;
+}
+
+.shippingColumn h2 {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.shippingSelect {
+    height: 45px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #b1b1b1;
+    font-size: 13px;
+    font-weight: 300;
+    appearance: none;
+    outline: none;
+    background: url(../img/caret_down.png) no-repeat right 10px center;
+    padding: 12px 18px;
+}
+
+.shippingInput {
+    height: 45px;
+    width: 100%;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 0 18px;
+    margin-top: 20px; 
+    color: #b1b1b1;
+    font-size: 13px;
+    font-weight: 300;
+    outline: none;
+}
+
+.shippingBtn {
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    margin-top: 23px;
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: 700;
+    outline: none;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.coupon {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.shippingColumn {
+    width: 360px;
+
+}
+.grandTotal {
+    padding: 40px 44px;
+    box-sizing: border-box;
+    background-color: #f5f3f3;
+}
+
+.subTotalText {
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.subTotalText span {
+    padding-left: 16px;
+}
+
+.grandTotalText {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 14px; 
+    padding-bottom: 22px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.grandTotalText span {
+    color: #f16d7f;
+    padding-left: 16px;
+}
+
+.proceedBtn {
+    width: 273px;
+    height: 50px;
+    background-color: #f16d7f; 
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    margin-top: 16px;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+}
 
 
 
@@ -136,7 +398,6 @@
 .subscribeWrap {
     margin-top: 100px;
     height: 438px;
-    /*width: 100%;*/
     background: url(../img/subscribe_bg.jpg) no-repeat center bottom, #ccc;
     background-blend-mode: overlay;
     background-size: cover;

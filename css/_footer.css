@@ -94,28 +94,33 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #7a7a7a;
 }
 
 .rightsText {
-    color: #7a7a7a;
     font-size: 16px;
     font-weight: 400;
 }
 
 .rightsLinks {
     display: flex;
+    width: 191px;
+    justify-content: space-between;
 }
 
-.rightsLinks div {
+.rightsLinks a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 8px;
     width: 32px;
     height: 32px;
     background-color: #ffffff;
+    text-decoration: none;
+    color: inherit;
 }
 
-.rightsLinks div:hover {
+
+.rightsLinks a:hover {
     background: #f16d7f;
+    color: #f7f7f8;
 }
