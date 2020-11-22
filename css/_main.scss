@@ -1,0 +1,175 @@
+.collection {
+    &Carousel {
+        background: url(../img/women_collection1.jpg) no-repeat center center;
+        height: 777px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #eaeaea;
+        background-color: #f7f7f7;
+        .CarouselLeftArrow, .CarouselRightArrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 47px;
+            height: 47px;
+            background-color: #d8d8d8;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+    }
+    .collectionWrap {
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        margin-top: -72px;
+        .collectionInfo {
+            width: 642px;
+            /*padding: 0 250px;*/
+            margin: 0 auto;
+            border-bottom: 1px solid #eaeaea;
+            .collectionTopic {
+                width: 150px;
+                margin: 0 auto;
+                padding-top: 73px;
+                height: 27px;
+                border-bottom: 1px solid #d8d8d8;
+                text-align: center;
+                color: #f16d7f;
+                font-size: 14px;
+                font-weight: 700;
+            }
+            .underLine {
+                width: 63px;
+                height: 3px;
+                background-color: #ef5b70;
+                margin: -2px auto;
+            }
+            .collectionBrand {
+                color: #4d4d4d;
+                font-size: 18px;
+                font-weight: 900;
+                text-align: center;
+                margin-top: 17px;
+            }
+            .collectionDescr {
+                width: 618px;
+                color: #5e5e5e;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 24px;
+                margin: 0 auto;
+                margin-top: 67px;
+            }
+            .collectionSpec {
+                display: flex;
+                margin-top: 28px;
+                justify-content: center;
+                & div {
+                    padding: 0 22px;
+                    color: #b9b9b9;
+                    font-size: 14px;
+                    font-weight: 700;
+                    span {
+                        color: #2f2f2f;
+                    }
+                }
+            }
+            .price {
+                margin: 0;
+                margin-top: 37px;
+                padding-bottom: 43px;
+                text-align: center;
+                color: #ef5b70;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+        .formOrder {
+            margin: 0 auto;
+            width: 537px;
+            padding: 63px 0 122px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            label {
+                display: block;
+                color: #2f2f2f;
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 16px;
+            }
+            .collectionOrderUnit {
+                color: #bcbcbc;
+                font-size: 14px;
+                font-weight: 400;
+                position: relative;
+                .orderUnitColor {
+                    position: absolute;
+                    width: 12px;
+                    height: 12px;
+                    background-color: #ef5b70;
+                    top: 45px;
+                    left: 14px;
+                }
+                .chooseColor, .chooseSize, input {
+                    width: 144px;
+                    height: 35px;
+                    border: 1px solid #eaeaea;
+                    appearance: none;
+                    padding-left: 15px;
+                }
+                .chooseColor {
+                    padding-left: 32px;
+                }
+                i {
+                    position: absolute;
+                    right: 5px;
+                    top: 44px;
+                }
+            }
+            button {
+                img {
+                    margin-right: 15px;
+                }
+                margin-top: 28px;
+                width: inherit;
+                height: 55px;
+                border: 1px solid #ef5b70;
+                background-color: #ffffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #f16d7f;
+                font-weight: 700;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.likeAlso {
+    .likeAlsoTopic {
+        color: #4d4d4d;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 119px;
+    }
+    .itemCollectionWrap {
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-between;
+        color: #6f6e6e;
+        font-size: 14px;
+        font-weight: 400;
+        .item, .price {
+            margin-top: 18px;
+            margin-left: 15px;
+        }
+        .price {
+            color: #f16d7f;
+        }
+    }
+}
