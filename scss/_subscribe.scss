@@ -1,0 +1,110 @@
+.revUnit {
+    display: flex;
+    &Right {
+        margin-left: 28px;
+        blockquote {
+            margin: 0;
+            width: 386px;
+            color: #222224;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: italic;
+            line-height: 26px;
+        }
+    }
+}
+
+.revName {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 19px;
+}
+
+.revFrom {
+    color: #222224;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.revSwitch {
+    margin-top: 41px;
+    display: flex;
+    div {
+        margin-right: 13px;
+        width: 38px;
+        height: 4px;
+        background-color: #d6d6d6;
+        &:hover {
+            background-color: #f16d7f;
+        }
+    }
+}
+
+.subscribe {
+    display: flex;
+    
+    &Wrap {
+        height: 438px;
+        background: url(../img/subscribe_bg.jpg) no-repeat center bottom, #ccc;
+        background-blend-mode: overlay;
+        background-size: cover;
+    }
+    
+    &Rev {
+        display: flex;
+        width: calc(100% - 1px);
+        align-items: center;
+    }
+
+    &Div {
+        width: 1px;
+        background-color: #ffffff;  
+    }
+
+    &Right {
+        display: flex;
+        width: calc(100% - 1px);
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #222224;    
+    }
+
+    &RightTopic {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    &RightsText {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px; 
+    }
+
+    &RightForm {
+        margin-left: 92px;
+        margin-top: 35px;
+        & input {
+            width: 334px;
+            height: 46px;
+            border-radius: 23px;
+            background-color: #e1e1e1;
+            font-weight: 700;
+            outline: none;
+            border: none;
+            padding-left: 28px;
+        }
+        & button {
+            color: #ffffff;
+            width: 104px;
+            height: 46px;
+            border-radius: 0 23px 23px 0;
+            background-color: #f16d7f;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            transform: translateX(-52px);
+        }
+    }
+}

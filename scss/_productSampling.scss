@@ -1,0 +1,103 @@
+.productSampling {
+    display: flex;
+    justify-content: space-between;
+    color: #6f6e6e;
+    font-size: 14px;
+
+    .samplingModelLinks {
+        width: 200px;
+        a {
+            color: #6f6e6e;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none;
+            span {
+                color: #dfdfdf;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+
+    .samplingTitle {
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    .samplingSizeInput {
+        display: flex;
+        flex-wrap: wrap;
+        width: 260px;
+        >div {
+            width: 65px;
+            input[type="checkbox"] {
+                position: relative;
+                &:after {
+                    content: '';
+                    width: 13px;
+                    height: 13px;
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 1;
+                    background: white;
+                    border: 1px solid #ebebeb;
+                }
+            }
+            label {
+                padding-left: 9px;
+            }
+        }
+    }
+
+    .samplingRange {
+        background: url(../img/Range.jpg) no-repeat center;
+        width: 262px;
+        height: 14px;
+        margin-bottom: 17px;
+    }
+
+    .samplingValue {
+        display: flex;
+        justify-content: space-between; 
+    }
+}
+
+.productsSort {
+    min-height: 50px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 41px;
+
+    .sortUnit {
+        display: flex;
+
+        .sortTitle,
+        .sortSelect {
+            border: 1px solid #ebebeb;
+            background: white;
+            padding: 8px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 11px;
+            box-sizing: border-box;
+            height: 30px;
+            color: #6f6e6e;
+        }
+        
+        &:first-child {
+            margin-right: 10px;
+        }
+
+        .sortTitle {
+            border-right: none;
+        }
+
+        .sortSelect i {
+            margin-left: 22px;
+        }
+    }
+}
