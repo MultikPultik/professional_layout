@@ -1,0 +1,10 @@
+.rights {
+    height: 79px;
+    background: #e6e6e6;
+    & .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #7a7a7a;
+    }
+}

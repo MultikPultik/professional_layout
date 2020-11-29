@@ -1,0 +1,19 @@
+.b-Social {
+    display: flex;
+    width: 191px;
+    justify-content: space-between;
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        background-color: #ffffff;
+        text-decoration: none;
+        color: inherit;
+        &:hover {
+            background: $mainColor;
+            color: #f7f7f8;
+        }
+    }
+}

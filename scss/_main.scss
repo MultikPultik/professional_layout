@@ -1,0 +1,43 @@
+.collection {
+    &Carousel {
+        background: url(../img/women_collection1.jpg) no-repeat center center;
+        height: 777px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #eaeaea;
+        background-color: #f7f7f7;
+        .CarouselLeftArrow, .CarouselRightArrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 47px;
+            height: 47px;
+            background-color: #d8d8d8;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+    }
+    .collectionWrap {
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        margin-top: -72px;
+    }
+}
+
+.likeAlso {
+    .likeAlsoTopic {
+        color: #4d4d4d;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 119px;
+    }
+    .itemCollectionWrap {
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

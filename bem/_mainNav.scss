@@ -1,0 +1,19 @@
+.b-mainNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    &__link {
+        text-decoration: none;
+        color: #222222;
+        line-height: 51px;
+        border-bottom: 3px solid transparent;
+        &:not(:last-child) {margin-right: 45px;}
+        &:hover {border-bottom: 3px solid #ef5b70;}
+    }
+}
