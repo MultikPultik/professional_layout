@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+@import "../scss/variables";
+
+@import "../scss/footer";
+@import "../scss/header";
+@import "../scss/main";
+@import "../scss/rights";
+@import "../scss/subscribe";
+
+@import "../bem/accountBtn";
+@import "../bem/cart";
+@import "../bem/collectionInfo";
+@import "../bem/formOrder";
+@import "../bem/itemCollection";
+@import "../bem/logo";
+@import "../bem/mainNav";
+@import "../bem/newArrivals";
+@import "../bem/rightsText";
+@import "../bem/search";
+@import "../bem/social";
+@import "../bem/subscribeRev";

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="b-logo">
+                BRAN<span class="b-logo__span">D</span>
+            </div>
+            <form class="b-searchForm b-searchForm_leftMargin">
+                <div class="b-searchForm__browse">
+                    Browse
+                    <i class="fas fa-caret-down b-searchForm__imgCaret"></i>
+                </div>
+                <input class="b-searchForm__input" type="text" placeholder="Search for Item...">
+                <button class="b-searchForm__button">
+                    <i class="fas fa-search b-searchForm__imgSearch"></i>
+                </button>
+            </form>
+            <img class="b-cart b-cart_leftMargin" src="img/cart.png" alt="">
+            <button class="b-accountBtn b-accountBtn_leftMargin">
+                My Account
+                <i class="fas fa-caret-down b-accountBtn__imgCaret"></i>
+            </button>
+        </div>
+    </div>
+
+    <nav class="b-mainNav">
+        <a class="b-mainNav__link" href="#">Home</a>
+        <a class="b-mainNav__link" href="#">Man</a>
+        <a class="b-mainNav__link" href="#">Women</a>
+        <a class="b-mainNav__link" href="#">Kids</a>
+        <a class="b-mainNav__link" href="#">Accoseriese</a>
+        <a class="b-mainNav__link" href="#">Featured</a>
+        <a class="b-mainNav__link" href="#">Hot Deals</a>
+    </nav>
+
+    <div class="b-newArrivals">
+        <div class="container b-newArrivals__container">
+            <div class="b-newArrivals__Text">
+                NEW ARRIVALS 
+            </div>
+            <nav>
+                <a class="b-newArrivals__link" href="#">HOME</a> /
+                <a class="b-newArrivals__link" href="#">MEN</a> /
+                <a class="b-newArrivals__link" href="#">NEW ARRIVALS</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="collection">
+        <div class="collectionCarousel">
+            <div class="CarouselLeftArrow">
+                <
+            </div>
+            <div class="CarouselRightArrow">
+                >
+            </div>
+        </div>
+
+        <div class="container collectionWrap">
+            <div class="b-collectionInfo b-collectionInfo_centerMargin">
+                <div class="b-collectionInfo__topic">
+                    WOMEN COLLECTION
+                </div>
+                <div class="b-collectionInfo__underLine"></div>
+                <div class="b-collectionInfo__Brand">
+                    MOSCHINO CHEAP AND CHIC
+                </div>
+                <div class="b-collectionInfo__Descr">
+                    Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. 
+                </div>
+                <div class="b-collectionInfo__Spec">
+                    <div>MATERIAL: <span>COTTON</span></div>
+                    <div>DESIGNER: <span>BINBURHAN</span></div>
+                </div>
+                <h3 class="b-collectionInfo__price">$561</h3>
+            </div>
+
+            <form class="b-formOrder b-formOrder_centerMargin">
+                <div class="b-formOrder__unit">
+                    <label class="b-formOrder__label">CHOOSE COLOR</label>
+                    <div>
+                        <i class="fas fa-chevron-down b-formOrder__imgDown"></i>
+                        <div class="b-formOrder__unitColor"></div>
+                        <select class="b-formOrder__chooseColor" name="">
+                            <option value="">Red</option>
+                            <option value="">Grey</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="b-formOrder__unit">
+                    <label class="b-formOrder__label">CHOOSE SIZE</label>
+                    <div>
+                        <i class="fas fa-chevron-down b-formOrder__imgDown"></i>
+                        <select class="b-formOrder__chooseSize" name="">
+                            <option value="">XXL</option>
+                            <option value="">XL</option>
+                            <option value="">L</option>
+                            <option value="">M</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="b-formOrder__unit">
+                    <label class="b-formOrder__label">QUANTITY</label>
+                    <input class="b-formOrder__input" type="text" value="2">
+                </div>
+                <button class="b-formOrder__button">
+                    <img class="b-formOrder__imgBtn" src="img/cartRed.png" alt="">
+                    Add to Cart
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="likeAlso container">
+        <div class="likeAlsoTopic">
+            YOU MAY LIKE ALSO
+        </div>
+        <div class="itemCollectionWrap">
+            <div class="b-itemCollection">
+                <img class="b-itemCollection__img" src="img/likealso_img1.jpg" alt="PhotoCollection">
+                <div class="b-itemCollection__name">BLAZE LEGGINGS</div>
+                <div class="b-itemCollection__price">$52.00</div>
+            </div>
+            <div class="b-itemCollection">
+                <img class="b-itemCollection__img" src="img/likealso_img2.jpg" alt="PhotoCollection">
+                <div class="b-itemCollection__name">ALEXA SWEATER</div>
+                <div class="b-itemCollection__price">$52.00</div>
+            </div>
+            <div class="b-itemCollection">
+                <img class="b-itemCollection__img" src="img/likealso_img3.jpg" alt="PhotoCollection">
+                <div class="b-itemCollection__name">AGNES TOP</div>
+                <div class="b-itemCollection__price">$52.00</div>
+            </div>
+            <div class="b-itemCollection">
+                <img class="b-itemCollection__img" src="img/likealso_img4.jpg" alt="PhotoCollection">
+                <div class="b-itemCollection__name">SYLVA SWEATER</div>
+                <div class="b-itemCollection__price">$52.00</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribeWrap">
+        <div class="container subscribe">
+            <div class="subscribeLeft">
+                <div class="b-subscribeRev b-subscribeRev_leftMargin">
+                    <div class="b-subscribeRev__img">
+                        <img src="img/subscribe_avatar.png" alt="photo">
+                    </div>
+                    <div class="b-subscribeRev__content">
+                        <blockquote class="b-subscribeRev__blockquote">
+                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium” 
+                        </blockquote>
+                        <div class="b-subscribeRev__name">
+                            Bin Burhan 
+                        </div>
+                        <div class="b-subscribeRev__from">
+                            Dhaka, Bd
+                        </div>
+                        <div class="b-subscribeRev__switchWrap">
+                            <div class="b-subscribeRev__switch"></div>
+                            <div class="b-subscribeRev__switch"></div>
+                            <div class="b-subscribeRev__switch"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribeDiv"></div>
+            <div class="subscribeRight">
+                <div class="subscribeRightTopic">SUBSCRIBE</div>
+                <div class="subscribeRightText">
+                    FOR OUR NEWLETTER AND PROMOTION
+                </div>
+                <form class="subscribeRightForm">
+                    <input type="text" placeholder="Enter Your Email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container">
+        <div class="footerSection">
+            <div class="b-logo">
+                BRAN<span class="b-logo__span">D</span>
+            </div>
+            <div class="footer_text">
+                Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+            </div>
+            <div class="footer_text">
+                Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize. 
+            </div>
+        </div>
+        <div class="footerSection">
+            <h2>COMPANY</h2>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">How It Works</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="footerSection">
+            <h2>INFORMATION</h2>
+            <a href="#">Tearms & Condition</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">How to Buy</a>
+            <a href="#">How to Sell</a>
+            <a href="#">Promotion</a>
+        </div>
+        <div class="footerSection">
+            <h2>SHOP CATEGORY</h2>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Child</a>
+            <a href="#">Apparel</a>
+            <a href="#">Browse All</a>
+        </div>
+    </footer>
+
+    <div class="rights">
+        <div class="container">
+            <div class="b-rightsText">
+                &copy; 2017 Brand All Rights Reserved.
+            </div>
+            <div class="b-Social">
+                <a class="b-Social__links" href="#">
+                    <i class="fab fa-facebook-f b-Social__img"></i>
+                </a>
+                <a class="b-Social__links" href="#">
+                    <i class="fab fa-twitter b-Social__img"></i>
+                </a>
+                <a class="b-Social__links" href="#">
+                    <i class="fab fa-linkedin-in b-Social__img"></i>
+                </a>
+                <a class="b-Social__links" href="#">
+                    <i class="fab fa-pinterest-p b-Social__img"></i>
+                </a>
+                <a class="b-Social__links" href="#">
+                    <i class="fab fa-google-plus-g b-Social__img"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

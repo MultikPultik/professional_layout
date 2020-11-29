@@ -1,0 +1,20 @@
+.b-accountBtn {
+    width: 130px;
+    height: 38px;
+    border: none;
+    background-color: $mainColor;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    
+    &__imgCaret {
+        padding-left: 8px;
+    }
+    
+    &_leftMargin {
+        margin-left: 26px;
+    }
+}

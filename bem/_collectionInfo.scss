@@ -1,0 +1,69 @@
+.b-collectionInfo {
+    width: 642px;
+    border-bottom: 1px solid #eaeaea;
+
+    &_centerMargin {
+        margin: 0 auto;
+    }
+    
+    &__topic {
+        width: 150px;
+        margin: 0 auto;
+        padding-top: 73px;
+        height: 27px;
+        border-bottom: 1px solid #d8d8d8;
+        text-align: center;
+        color: $mainColor;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &__underLine {
+        width: 63px;
+        height: 3px;
+        background-color: #ef5b70;
+        margin: -2px auto;
+    }
+
+    &__Brand {
+        color: #4d4d4d;
+        font-size: 18px;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    &__Descr {
+        color: #5e5e5e;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0 auto;
+        margin-top: 67px;
+    }
+
+    &__Spec {
+        display: flex;
+        margin-top: 28px;
+        justify-content: center;
+        & div {
+            padding: 0 22px;
+            color: #b9b9b9;
+            font-size: 14px;
+            font-weight: 700;
+            span {
+                color: #2f2f2f;
+            }
+        }
+    }
+
+    &__price {
+        margin: 0;
+        margin-top: 37px;
+        padding-bottom: 43px;
+        text-align: center;
+        color: #ef5b70;
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
