@@ -1,0 +1,15 @@
+@import "variables";
+
+@import "contacts";
+@import "discount";
+@import "gallery";
+@import "header";
+@import "mainNav";
+@import "rights";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    line-height: 1;
+}

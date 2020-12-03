@@ -1,0 +1,32 @@
+.mainNav {
+    height: 78px;
+    border-bottom: 1px solid #000000;
+
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 78px;
+    }
+
+    nav>a {
+        color: #8c8c8c;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        line-height: 77px;
+        border-bottom: 3px solid transparent;
+        padding: 0 7px;
+        outline: none;
+    }
+
+    nav>a:not(:last-child) {
+        margin-right: 28px;
+    }
+
+    nav>a:hover {
+        border-bottom: 3px solid #000;
+        color: #000000;
+    }
+}

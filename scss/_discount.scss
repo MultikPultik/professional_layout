@@ -1,0 +1,71 @@
+.discount {
+    display: flex;
+    justify-content: center;
+    margin-top: 175px;
+
+    &Wrap {
+        background: url(../img/discountIMG1.jpg) no-repeat;
+        padding: 20px 114px 153px 114px;
+        min-width: 960px;
+        min-height: 562px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    &Wrap:last-child {
+        background: url(../img/discountIMG2.jpg) no-repeat;
+    }
+
+    &Topic {
+        color: #010101;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    &Title {
+        color: #f44336;
+        font-size: 36px;
+        font-weight: 400;
+        display: block;
+        margin-top: 17px;
+
+        span {
+            display: block;
+        }
+    }
+
+    &Price {
+        margin-top: 20px;
+        color: #000000;
+        font-size: 62px;
+
+        span {
+            color: #8c8c8c;
+            font-size: 36px;
+            font-weight: 300;
+        }
+
+        span:last-child {
+            text-decoration: line-through;
+        }
+    }
+
+    &Btn {
+        margin-top: 19px;
+        width: 265px;
+        height: 62px;
+        background-color: #f44336;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    &Btn:hover {
+        border: 1px solid #000000;
+    }
+
+}

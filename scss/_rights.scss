@@ -1,0 +1,26 @@
+.rights {
+    height: 83px;
+    background-color: #000000;
+    margin-top: 174px;
+    color: #ffffff;
+
+    h3 {
+        color: #ffffff;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0;
+        a {
+            color: #f44336;
+            text-decoration: none;
+            outline: none;
+        }
+    }
+
+    .container {
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
