@@ -16,7 +16,7 @@
     background-color: #ffffff;
     height: 100px;
 
-    @media (max-width: 745px) {
+    @media (max-width: 850px) {
         height: auto;
         padding: 15px;
     }
@@ -27,13 +27,14 @@
         flex-direction: row;
         align-items: center;
 
-        > div, form {
-            @media (max-width: 745px) {
+        >div,
+        form {
+            @media (max-width: 850px) {
                 margin-bottom: 15px;
             }
         }
 
-        @media (max-width: 745px) {
+        @media (max-width: 850px) {
             flex-direction: column;
             justify-content: center;
         }
@@ -51,6 +52,7 @@
     font-style: normal;
     letter-spacing: 0.68px;
     color: #222222;
+
     span {
         color: #f16d7f;
         font-weight: 900;
@@ -64,11 +66,11 @@
     border: 1px solid #e6e6e6;
     overflow: hidden;
     margin-left: 37px;
-    
-    @media (max-width: 745px) {
-         margin-left: 0;   
+
+    @media (max-width: 850px) {
+        margin-left: 0;
     }
-    
+
     div {
         display: flex;
         width: 87px;
@@ -80,7 +82,10 @@
         font-size: 14px;
         font-weight: 300;
         text-align: right;
-        i { padding-left: 8px;}
+
+        i {
+            padding-left: 8px;
+        }
     }
 
     input {
@@ -96,8 +101,12 @@
         font-weight: 300;
         letter-spacing: normal;
 
-        @media (max-width: 840px) {
-            width: 150px;
+        @media (max-width: 450px) {
+            width: 220px;
+        }
+
+        @media (max-width: 390px) {
+            width: 170px;
         }
     }
 
@@ -113,90 +122,33 @@
     }
 }
 
-.myAccountBtn {
-    width: 130px;
-    height: 38px;
-    border: none;
-    margin-left: 26px;
-    background-color: #f16d7f;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    i {padding-left: 8px;}
-    
-    @media (max-width: 745px) {
-        margin-left: 0;        
-    }
-}
-
-.cart {
+.btnWrap {
     margin-left: auto;
-
-    @media (max-width: 745px) {
-        display: none;
-    }
-}
-
-.topNav {
+    height: 38px;
+    width: 188px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 51px;
-    color: #222222;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
+    justify-content: space-between;
 
-    @media (max-width: 710px) {
-        flex-wrap: wrap;
-        justify-content: left;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    
-    @media (max-width: 615px) {
-        height: 77px;
+    @media (max-width: 850px) {
+        margin-left: 0;
     }
 
-    @media (max-width: 400px) {
-        flex-direction: column;
-        /*justify-content: center;*/
-        height: auto;
-    }
+    .myAccountBtn {
+        width: 130px;
+        height: inherit;
+        border: none;
+        margin-left: 26px;
+        background-color: #f16d7f;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
 
-    a {
-        text-decoration: none;
-        color: #222222;
-        line-height: 51px;
-        border-bottom: 3px solid transparent;
-
-        &:not(:last-child) {
-            margin-right: 45px;
-
-            @media (max-width: 710px) {
-                margin-right: 30px;
-            }
-
-            @media (max-width: 400px) {
-                border-bottom: none;
-                margin-right: 0;
-                line-height: 1.8;
-            }
-        }
-        &:hover {
-            border-bottom: 3px solid #ef5b70;
-            
-            @media (max-width: 400px) {
-                border-bottom: none;
-                color:  #ef5b70;
-            }    
-        }
-
-        @media (max-width: 615px) {
-            line-height: 2.2;
+        i {
+            padding-left: 8px;
         }
     }
 }

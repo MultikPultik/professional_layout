@@ -338,7 +338,7 @@ footer > div:first-child {
   height: 100px;
 }
 
-@media (max-width: 745px) {
+@media (max-width: 850px) {
   .header {
     height: auto;
     padding: 15px;
@@ -352,13 +352,14 @@ footer > div:first-child {
   align-items: center;
 }
 
-@media (max-width: 745px) {
-  .header .container > div, .header .container form {
+@media (max-width: 850px) {
+  .header .container > div,
+  .header .container form {
     margin-bottom: 15px;
   }
 }
 
-@media (max-width: 745px) {
+@media (max-width: 850px) {
   .header .container {
     flex-direction: column;
     justify-content: center;
@@ -392,7 +393,7 @@ footer > div:first-child {
   margin-left: 37px;
 }
 
-@media (max-width: 745px) {
+@media (max-width: 850px) {
   .topSearch {
     margin-left: 0;
   }
@@ -429,9 +430,15 @@ footer > div:first-child {
   letter-spacing: normal;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 450px) {
   .topSearch input {
-    width: 150px;
+    width: 220px;
+  }
+}
+
+@media (max-width: 390px) {
+  .topSearch input {
+    width: 170px;
   }
 }
 
@@ -446,9 +453,24 @@ footer > div:first-child {
   cursor: pointer;
 }
 
-.myAccountBtn {
-  width: 130px;
+.btnWrap {
+  margin-left: auto;
   height: 38px;
+  width: 188px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 850px) {
+  .btnWrap {
+    margin-left: 0;
+  }
+}
+
+.btnWrap .myAccountBtn {
+  width: 130px;
+  height: inherit;
   border: none;
   margin-left: 26px;
   background-color: #f16d7f;
@@ -460,100 +482,8 @@ footer > div:first-child {
   outline: none;
 }
 
-.myAccountBtn i {
+.btnWrap .myAccountBtn i {
   padding-left: 8px;
-}
-
-@media (max-width: 745px) {
-  .myAccountBtn {
-    margin-left: 0;
-  }
-}
-
-.cart {
-  margin-left: auto;
-}
-
-@media (max-width: 745px) {
-  .cart {
-    display: none;
-  }
-}
-
-.topNav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 51px;
-  color: #222222;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-@media (max-width: 710px) {
-  .topNav {
-    flex-wrap: wrap;
-    justify-content: left;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
-@media (max-width: 615px) {
-  .topNav {
-    height: 77px;
-  }
-}
-
-@media (max-width: 400px) {
-  .topNav {
-    flex-direction: column;
-    /*justify-content: center;*/
-    height: auto;
-  }
-}
-
-.topNav a {
-  text-decoration: none;
-  color: #222222;
-  line-height: 51px;
-  border-bottom: 3px solid transparent;
-}
-
-.topNav a:not(:last-child) {
-  margin-right: 45px;
-}
-
-@media (max-width: 710px) {
-  .topNav a:not(:last-child) {
-    margin-right: 30px;
-  }
-}
-
-@media (max-width: 400px) {
-  .topNav a:not(:last-child) {
-    border-bottom: none;
-    margin-right: 0;
-    line-height: 1.8;
-  }
-}
-
-.topNav a:hover {
-  border-bottom: 3px solid #ef5b70;
-}
-
-@media (max-width: 400px) {
-  .topNav a:hover {
-    border-bottom: none;
-    color: #ef5b70;
-  }
-}
-
-@media (max-width: 615px) {
-  .topNav a {
-    line-height: 2.2;
-  }
 }
 
 .likeAlso .likeAlsoTopic {
@@ -902,6 +832,95 @@ footer > div:first-child {
   .revUnit .revSwitch {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+.topNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 710px) {
+  .topNav {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 710px) {
+  .topNav {
+    height: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .topNav {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.topNav a {
+  text-decoration: none;
+  color: #222222;
+  line-height: 51px;
+  border-bottom: 3px solid transparent;
+}
+
+@media (max-width: 710px) {
+  .topNav a {
+    line-height: 2.2;
+  }
+  .topNav a:last-child {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .topNav a {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .topNav a {
+    border-bottom: none;
+    margin: 0;
+    line-height: 1.8;
+  }
+}
+
+.topNav a:not(:last-child) {
+  margin-right: 45px;
+}
+
+@media (max-width: 710px) {
+  .topNav a:not(:last-child) {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .topNav a:not(:last-child) {
+    margin: 0 15px;
+  }
+}
+
+.topNav a:hover {
+  border-bottom: 3px solid #ef5b70;
+}
+
+@media (max-width: 400px) {
+  .topNav a:hover {
+    border-bottom: none;
+    color: #ef5b70;
   }
 }
 
