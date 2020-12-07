@@ -1,0 +1,154 @@
+.container {
+    width: 1140px;
+    height: inherit;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media (max-width: 1170px) {
+        margin: auto;
+        width: auto;
+    }
+}
+
+.header {
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    height: 100px;
+
+    @media (max-width: 850px) {
+        height: auto;
+        padding: 15px;
+    }
+
+    & .container {
+        height: inherit;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        >div,
+        form {
+            @media (max-width: 850px) {
+                margin-bottom: 15px;
+            }
+        }
+
+        @media (max-width: 850px) {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+
+.logo {
+    background: url(../img/logo.png) no-repeat left center;
+    height: 51px;
+    padding-left: 60px;
+    width: 93px;
+    font-size: 27px;
+    line-height: 51px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.68px;
+    color: #222222;
+
+    span {
+        color: #f16d7f;
+        font-weight: 900;
+    }
+}
+
+.topSearch {
+    display: flex;
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+    margin-left: 37px;
+
+    @media (max-width: 850px) {
+        margin-left: 0;
+    }
+
+    div {
+        display: flex;
+        width: 87px;
+        justify-content: center;
+        align-items: center;
+        background-color: #cdcdcc;
+        background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+        color: #222222;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: right;
+
+        i {
+            padding-left: 8px;
+        }
+    }
+
+    input {
+        border: none;
+        border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        outline-style: none;
+        width: 280px;
+        padding: 14px 16px;
+        box-sizing: border-box;
+        color: #a4a4a4;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: normal;
+
+        @media (max-width: 450px) {
+            width: 220px;
+        }
+
+        @media (max-width: 390px) {
+            width: 170px;
+        }
+    }
+
+    button {
+        border: none;
+        padding: 0;
+        width: 36px;
+        outline: none;
+        color: #a4a4a4;
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+
+.btnWrap {
+    margin-left: auto;
+    height: 38px;
+    width: 188px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 850px) {
+        margin-left: 0;
+    }
+
+    .myAccountBtn {
+        width: 130px;
+        height: inherit;
+        border: none;
+        margin-left: 26px;
+        background-color: #f16d7f;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+
+        i {
+            padding-left: 8px;
+        }
+    }
+}
