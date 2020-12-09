@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+@import "_animation";
+@import "_facility";
+@import "_footer";
+@import "_header";
+@import "_leftNav";
+@import "newArrivals";
+@import "_pagination";
+@import "_productSampling";
+@import "_subscribe";
+@import "_products";
+
+body, html {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
