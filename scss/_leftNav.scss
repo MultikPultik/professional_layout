@@ -1,0 +1,46 @@
+.row {
+    margin-top: 59px;
+}
+
+.cardHeader {
+    background: none;
+    border-radius: 0 !important;
+    color: #6f6e6e;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+    &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: '';
+        width: 5px;
+        height: 45px;
+        background-color: #ef5b70;
+    }
+    i {
+        position: absolute;
+        right: 5px;
+        top: 16px;
+        
+    }
+}
+
+.cardUnit {
+    border-radius: 0;
+    border: none;
+    overflow: visible !important;
+    &:not(:last-child) {
+        margin-bottom: 18px;
+    }
+    .card-body a {
+        display: block;
+        color: #6f6e6e;
+        font-weight: 400;
+        &:not(:last-child) {
+            margin-bottom: 22px;
+        }
+    }
+}

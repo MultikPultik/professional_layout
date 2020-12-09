@@ -1,0 +1,25 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+    color: #6f6e6e;
+    font-size: 13px;
+    font-weight: 400;
+
+    &Desc {
+        padding: 19px 15px;
+
+        span {
+            color: #f16d7f;
+            display: block;
+            padding-top: 17px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    &Wrap {
+        margin-bottom: 38px;
+    }
+}
